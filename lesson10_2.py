@@ -18,7 +18,7 @@ while(True):
         print(first_name + name[-2:])
     
     again = input("您還要繼續嗎?(y,n)")
-    if again.lower() == "n":
+    if again.lower() == "n": #lower把大寫變小寫
         break
 
 print("系統結束")
