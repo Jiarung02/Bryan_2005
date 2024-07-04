@@ -5,7 +5,7 @@ target = random.randint(min,max)
 count = 0
 print("==========猜數字遊戲==========\n\n")
 while True:    
-    keyin = int(input(f"猜數字的範圍{min}~{max}"))
+    keyin = int(input(f"猜數字的範圍{min}~{max}:"))
     count += 1
     if keyin >= min and keyin <= max:
         if(keyin == target):
